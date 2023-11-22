@@ -1,0 +1,224 @@
+<html>
+    <head>
+        <title>CSS Project</title>
+        <style>
+             *
+            {
+                padding: 0;
+                margin: 0;
+            }
+.container
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+input[type="button"]
+{
+    height: 20px;
+    background: orangered;
+    color: white;
+    border: none;
+}
+.top-header
+{
+    height: 100px;
+    background-color:#34495E ;
+    border-bottom: 2px solid orangered;
+}
+.top-header-left
+{
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.top-header-right
+{
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+ul
+{
+    list-style: none;
+}
+ul li
+{
+    float: left;
+}
+ul li a
+{
+    width: 100px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+ul li a:hover
+{
+    font-size: 20px;
+    color: red;
+}
+h2
+{
+    color: white;
+}
+.image
+{
+    height: 450px;
+    background-size:cover;
+    background-position:center;
+    background-image: url(showcase.jpg);
+}
+.mid-header
+{
+    background-color: #34495E ;
+    height: 80px;
+}
+.mid-header-left
+{
+    float:left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.mid-header-right
+{
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+}
+h3
+{
+    color: white;
+}
+h1
+{
+text-align:center;
+color:white;
+font-size:40px;
+padding-top:50px;
+padding-bottom:10px;
+}
+p
+{
+text-align:center;
+color: white;
+font-size:20px;
+padding-top:10px;
+padding-left: 30px;
+}
+.container2
+{
+   
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+
+}
+.box1
+{
+    height: 250px;
+    width: 300px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+}
+.box2
+{
+    height: 250px;
+    width: 300px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+}
+.box3
+{
+    height: 250px;
+    width: 300px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+}
+.container2 img
+{
+    height: 100px;
+}
+.container2 p
+{
+    color: black;
+    font-size: 15px;
+    line-height: 25px;
+}
+h4
+{
+    font-size: 21px;
+}
+.footer h4
+{
+    color: white;
+}
+.footer
+{
+    width: 100%;
+    height: 50px;
+    background-color: orangered;
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+}
+        </style>
+    </head>
+    <body>
+         <body>
+        <div class="top-header">
+            <div class="container">
+                <div class="top-header-left">
+                    <h2><span style="color:orangered">Acme</span> Web Design</h2>
+                </div>
+                <div class="top-header-right">
+                    <ul>
+                        <li><a href="CssProject.html"><span style="color:orangered">Home</span></a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+                <div class="image">
+                    <h1>Affordable Professional Web Design</h1>
+                      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.Etiam eu luctus ipsum,semper magna.Nulla nec magna sit amet sem interdum condimentum.</p> 
+                </div>
+                <div class="mid-header">
+                    <div class="container">
+                        <div class="mid-header-left">
+                    <h3>Subcribe To Our Newsletter</h3>
+                        </div>
+                        <div class="mid-header-right">
+                    <input type="text" placeholder="Enter Email"><input type="button" value="Subscribe" style="background-color: orangered; border:0px;padding: 2px; margin: 2px;"> 
+                        </div>
+                    </div>
+                            </div>
+            <div class="container2">
+                <div class="box1">
+                    <img src="logo_html.png" alt="HTML">
+                    <h4>HTML</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.Etiam eu luctus ipsum,semper magna.Nulla nec magna sit amet sem interdum condimentum.</p>
+                </div>
+                <div class="box2">
+                    <img src="logo_css.png" alt="CSS">
+                    <h4>CSS</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.Etiam eu luctus ipsum,semper magna.Nulla nec magna sit amet sem interdum condimentum.</p>
+                </div>
+                <div class="box3">
+                    <img src="graphics.png" alt="">
+                    <h4>Graphic Designing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.Etiam eu luctus ipsum,semper magna.Nulla nec magna sit amet sem interdum condimentum.</p>
+                </div>
+            </div>
+            <div class="footer">
+                <h4>Acme Web Design,Copyright &copy; 2017</h4>
+            </div>
+    </body>
+</html>

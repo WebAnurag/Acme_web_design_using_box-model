@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <title>Services</title>
+        <style>
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.container
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+.top-header
+{
+    height: 100px;
+    background-color:#34495E ;
+    border-bottom: 2px solid orangered;
+}
+.top-header-left
+{
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.top-header-right
+{
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+ul
+{
+    list-style: none;
+}
+ul li
+{
+    float: left;
+}
+ul li a
+{
+    width: 100px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+ul li a:hover
+{
+    font-size: 20px;
+    color: red;
+}
+h2
+{
+    color: white;
+}
+.mid-header
+{
+    background-color: #34495E ;
+    height: 80px;
+}
+.mid-header-left
+{
+    float:left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.mid-header-right
+{
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+}
+h3
+{
+    color: white;
+}
+.container2
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.box1
+{
+width: 700px;
+height: 200px;
+background-color: #AED6F1 ;
+margin-left: 10px;
+margin-bottom: 10px;
+margin-top: 10px;
+border: 1px solid black;
+}
+.box2
+{
+width: 700px;
+height: 200px;
+background-color: #AED6F1 ;
+margin-left: 10px;
+margin-bottom: 10px;
+border: 1px solid black;
+}
+.box3
+{
+width: 700px;
+height: 200px;
+background-color: #AED6F1 ;
+margin-left: 10px;
+margin-bottom: 10px;
+border: 1px solid black;
+}
+.right
+{
+    width: 300px;
+    height:300px;
+    margin-left:80px ;
+    background-color: #34495E;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+.footer
+{
+    width: 100%;
+    height: 50px;
+    background-color: orangered;
+    display: grid;
+    place-items: center;
+    
+}
+.footer h4
+{
+    color: white;
+}
+</style>
+</head>
+<body>
+    <div class="top-header">
+        <div class="container">
+            <div class="top-header-left">
+                <h2><span style="color:orangered">Acme</span> Web Design</h2>
+            </div>
+            <div class="top-header-right">
+                <ul>
+                    <li><a href="CssProject.html"><span style="color:orangered">Home</span></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="mid-header">
+            <div class="container">
+                <div class="mid-header-left">
+            <h3>Subcribe To Our Newsletter</h3>
+                </div>
+                <div class="mid-header-right">
+            <input type="text" placeholder="Enter Email"><input type="button" value="Subscribe" style="background-color: orangered; border:0px;padding: 2px; margin: 2px;"> 
+                </div>
+            </div>
+                    </div>
+                    <div class="container2">
+                        <div class="left">
+                            <div class="box1">
+                            <h4>Website Design</h4>
+                            <br>
+                            <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Etiam eu luctus ipsum,rhoncus semper magna.Nulla nec magna
+                                sit amet sem interdum condimentum.</p>
+                                <br>
+                                <p>Pricing:$1,000-$3,000</p>
+                        </div>
+                        <div class="box2">
+                            <h4>Website Maintenance</h4>
+                            <br>
+                            <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Etiam eu luctus ipsum,rhoncus semper magna.Nulla nec magna
+                                sit amet sem interdum condimentum.</p>
+                                <br>
+                                <p>Pricing:$250 per month</p>
+                        </div>
+                        <div class="box3">
+                            <h4>Website Hosting</h4>
+                            <br>
+                            <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Etiam eu luctus ipsum,rhoncus semper magna.Nulla nec magna
+                                sit amet sem interdum condimentum.</p>
+                                <br>
+                                <p>Pricing:$25 per month</p>
+                        </div>
+                        </div>
+                        <div class="right">
+                            <h3>Get A Quote</h3>
+                            <form style="width:250px">
+                                <div class="form-group">
+                                    Name<input type="text" class="form-control">
+                                    E-Mail<input type="text" class="form-control">
+                                    Massage<input type="text" class="form-control">
+                                </div>
+                                <input type="button" value="submit" class="btn btn-danger">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <h4>Acme Web Design,Copyright &copy; 2017</h4>
+                       </div>
+    </body>
+</html>
